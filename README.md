@@ -12,6 +12,9 @@ Simply run `./build.sh` and the presentation will be in the output dir.
 
 See the build.sh source for the build steps should you wish to customise the build process.
 
+### Build variables
+There are two build variables for reveal.js; one for the theme (defaults to solarized) and another for the transition style (uses reveal.js default). See the [reveal.js documentation](https://github.com/hakimel/reveal.js#configuration) for more information on the available options.
+
 ## Creating slides
 Slides are created in src/slides.md as per the [pandoc documentation](http://johnmacfarlane.net/pandoc/demo/example19/Producing-slide-shows-with-Pandoc.html). Note the features for [vertical slides](http://johnmacfarlane.net/pandoc/demo/example19/Structuring-the-slide-show.html#Structuring-the-slide-show), [incremental lists](http://johnmacfarlane.net/pandoc/demo/example19/Incremental-lists.html#Incremental-lists), [pauses](http://johnmacfarlane.net/pandoc/demo/example19/Inserting-pauses.html#Inserting-pauses), [speaker notes](http://johnmacfarlane.net/pandoc/demo/example19/Speaker-notes.html#Speaker-notes) and [styling the slides](http://johnmacfarlane.net/pandoc/demo/example19/Styling-the-slides.html#Styling-the-slides).
 
